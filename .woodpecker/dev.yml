@@ -1,0 +1,9 @@
+when:
+  - event: push
+    branch: dev
+
+steps:
+  - name: build
+    image: alpine
+    commands:
+      - echo "Hello From WoodPecker"
