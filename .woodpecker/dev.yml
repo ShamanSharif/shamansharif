@@ -6,4 +6,4 @@ steps:
   - name: build
     image: alpine
     commands:
-      - echo "Hello From WoodPecker"
+      - echo "Hello From WoodPecker CI"
